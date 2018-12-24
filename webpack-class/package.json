@@ -1,0 +1,42 @@
+{
+  "name": "webpack-classcode",
+  "version": "1.0.0",
+  "description": "webpack的基本使用代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "webpack": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wxy78963/webpack-classcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.10.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0"
+  }
+}
